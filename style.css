@@ -41,6 +41,7 @@ p {
 
 .profile-wrapper {
  width: 80%;
+ max-width: 880px;
  margin: 0 auto;
   background-color: #E3E6E1;
   color: #352E2B;

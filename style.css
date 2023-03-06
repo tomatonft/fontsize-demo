@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: 'Noto Serif JP', serif;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  line-height: 2.9;
+}
+
+#profile {
+  background-color: #352E2B;
+  width: 100%;
+  padding-bottom: 80px;
+}
+
+.section-title {
+  font-family:'Crimson Text', serif;
+  color: #E3E6E1;
+  padding-top: 80px;
+  padding-bottom: 32px;
+  font-size: 36px;
+  font-weight: normal;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.section-title-ja {
+  font-size: 14px;
+  display: block;
+}
+
+.profile-wrapper {
+ width: 80%;
+ margin: 0 auto;
+  background-color: #E3E6E1;
+  color: #352E2B;
+  padding: 40px 16px;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.name-ja {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.name-en {
+  font-size: 14px;
+  display: block;
+  margin-left: 16px;
+}
+
+.sub-title {
+  margin-bottom: 32px;
+}
+
+.sub-title,
+.profile-text {
+  font-size: 14px;
+}
+
+/* --------------------------
+        レスポンシブ
+-----------------------------*/
+/* large screen */
+@media (min-width: 880px) {
+  p {
+    line-height: 2.9;
+  }
+  
+  #profile {
+    /* background-color: #352E2B;
+    width: 100%; */
+    padding-bottom: 104px;
+  }
+  
+  .section-title {
+    /* font-family:'Crimson Text', serif;
+    color: #E3E6E1; */
+    padding-top: 104px;
+    padding-bottom: 40px;
+    font-size: 48px;
+    /* font-weight: normal;
+    width: fit-content;
+    margin: 0 auto; */
+  }
+  
+  .section-title-ja {
+    font-size: 16px;
+    /* display: block; */
+  }
+  
+  .profile-wrapper {
+   /* width: 80%;
+   margin: 0 auto; */
+    /* background-color: #E3E6E1;
+    color: #352E2B; */
+    padding: 56px 40px;
+  }
+  
+  .name {
+    /* display: flex;
+    align-items: center;
+    margin-bottom: 8px; */
+  }
+  
+  .name-ja {
+    font-size: 32px;
+    /* font-weight: normal; */
+  }
+  
+  .name-en {
+    font-size: 16px;
+    /* display: block;
+    margin-left: 16px; */
+  }
+  
+  .sub-title {
+    margin-bottom: 40px;
+  }
+  
+  .sub-title,
+  .profile-text {
+    font-size: 16px;
+  }
+
+}
